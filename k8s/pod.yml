@@ -1,0 +1,11 @@
+# Create Nginx Pod
+apiVersion: v1
+kind: Pod
+metdata:
+  name: nginx-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    ports:
+    - containerPort: 80
