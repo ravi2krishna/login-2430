@@ -1,0 +1,47 @@
+# Comments - Ignored By k8s
+
+# Simple Key Values
+key: value
+name: ravi
+city: hyderabad
+time: 8
+
+# Incorrect Key Values
+name:krishna
+
+# Dictionary / Map
+trainer:
+  name: ravi
+  city: hyderabad
+  time: 8
+studnet:
+  name: john
+  city: pune
+  time: 8  
+
+# Incorrect Dictionary / Map
+trainer:
+name: ravi
+city: hyderabad
+time: 8 
+
+# Lists / Arrays
+courses:
+- aws
+- azure
+- devops
+
+# Example for k8s pod representation
+institutue: edify
+plotno: 92
+infrastructure:
+  floors: 3
+  classrooms: 20
+courses:
+  aws:
+  - student_name: mike
+    student_age: 25
+    student_contact:
+    - personal: 99999  
+    - house: 88888
+    - brother: 77777
