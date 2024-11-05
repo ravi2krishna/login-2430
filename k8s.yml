@@ -1,0 +1,5 @@
+# All your k8s files(objects) will have this top level items
+apiVersion:
+kind:
+metdata:
+spec:
